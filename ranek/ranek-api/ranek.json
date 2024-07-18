@@ -1,0 +1,260 @@
+{
+  "usuario": [
+    {
+      "id": "andre@origamid.com",
+      "email": "andre@origamid.com",
+      "nome": "André Rafael",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet22",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet11",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet01",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet911",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet811",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet711",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet611",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet511",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet411",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet311",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet211",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet111",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet2211",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet1111",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet011",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet911",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet811",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet711",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet611",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet511",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet411",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet3444",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet23",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "tablet12",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    }
+  ]
+}
