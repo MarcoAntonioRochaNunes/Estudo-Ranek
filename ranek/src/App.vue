@@ -96,4 +96,18 @@ export default {
     border-color: #87f;
   }
 
+  .v-enter,
+  .v-leave-to{
+    opacity: 0;
+  }
+    .v-enter{
+      transform: translate3d(0, -20px, 0);
+    }
+    .v-leave-to{
+      transform: translate3d(0, 20px, 0);
+    }
+  .v-enter-active,
+  .v-enter-active{
+    transition: all 0.3s  ;
+  }
 </style>
