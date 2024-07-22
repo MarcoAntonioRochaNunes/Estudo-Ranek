@@ -4,7 +4,7 @@
   <transition mode="out-in">
       <button v-if="!criar" class="btn" @click="criar = true">Criar Conta</button>
     <UsuarioForm v-else>
-      <button class="btn btn-form">Criar Usuario</button>
+      <button class="btn btn-form" @click.prevent="criarUsuario">Criar Usuario</button>
     </UsuarioForm>
   </transition>
 
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import UsuarioForm from "@/components/UsuarioForm"
+import UsuarioForm from "@/components/UsuarioForm.vue";
 
 export default {
   name:"LoginCiar",
@@ -23,6 +23,13 @@ export default {
   },
   components: {
     UsuarioForm
+  },
+  methods:{
+    async criarUsuario(){
+      await this.$store.dispatch("criarUsuario", this.$store.state.usuario);
+      await this.$store.dispatch("getUsuario", this.$store.state.usuario.email);
+      this.$router.push({name:"UsuarioView"})
+    }
   }
 }
 </script>

@@ -6,6 +6,7 @@ Vue.use(Vuex)
 
 
 export default new Vuex.Store({
+  strict: true,
   state: {
 
     login: false,
@@ -29,7 +30,7 @@ export default new Vuex.Store({
       state.login = payload;
     },
     UPDATE_USUARIO(state, payload){
-      state.usuario = payload;
+      state.usuario = Object.assign({}, state.usuario, payload);
     }
   },
   actions: {
@@ -38,6 +39,11 @@ export default new Vuex.Store({
         context.commit("UPDATE_USUARIO", response.data);
         context.commit("UPDATE_LOGIN", true);
       });
+    },
+    criarUsuario(context, payload){
+      context.commit("UPDATE_USUARIO", { id: payload.email });
+      console.log(payload.email);
+      api.post("/usuario", payload);
     }
   },
   modules: {
