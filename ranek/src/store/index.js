@@ -44,6 +44,21 @@ export default new Vuex.Store({
       context.commit("UPDATE_USUARIO", { id: payload.email });
       console.log(payload.email);
       api.post("/usuario", payload);
+    },
+    deslogarUsuario(context){
+      context.commit("UPDATE_USUARIO", {
+        id: "",
+        nome: "",
+        email: "",
+        senha: "",
+        cep: "",
+        rua: "",
+        numero: "",
+        bairro: "",
+        cidade: "",
+        estado: "",
+      });
+      context.commit("UPDATE_LOGIN", false);
     }
   },
   modules: {

@@ -70,6 +70,30 @@
       "bairro": "Areal (Águas Claras)",
       "cidade": "Brasília",
       "estado": "DF"
+    },
+    {
+      "id": "fLoCWdR",
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "cep": "72427010",
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": ""
+    },
+    {
+      "id": "w-QBoDa",
+      "nome": "Teste dos Santos",
+      "email": "teste@teste.com",
+      "senha": "123",
+      "cep": "01001-000",
+      "rua": "Praça da Sé",
+      "numero": "100",
+      "bairro": "Sé",
+      "cidade": "São Paulo",
+      "estado": "SP"
     }
   ],
   "produto": [
