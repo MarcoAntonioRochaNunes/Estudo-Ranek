@@ -1,7 +1,7 @@
 <template>
   <section class="produtos-container">
     <transition mode="out-in">
-      <div v-if="produtos && produtos.length" class="produtos" :key="produtos">
+      <div v-if="produtos && produtos.length" class="produtos" key="produtos">
 
         <div class="produto" v-for="produto in produtos" :key="produto.id">
           <router-link :to="{name: 'ProdutoHome', params: {id: produto.id}}">
@@ -18,10 +18,10 @@
         <ProdutosPaginar :produtosTotal="produtosTotal" :produtosPorPagina="produtosPorPagina"/>
       </div>
 
-      <div v-else-if="produtos && produtos.length === 0" :key="sem-resultado">
+      <div v-else-if="produtos && produtos.length === 0" key="sem-resultado">
         <p class="sem-resultados">Busca sem Resultado. Tente buscar outro termo</p>
       </div>
-      <PaginaCarregando :key="carregando" v-else/>
+      <PaginaCarregando key="carregando" v-else/>
     </transition>
   </section>
 </template>

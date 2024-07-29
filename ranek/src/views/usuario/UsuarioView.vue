@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .usuario{
     display: grid;
     grid-template-columns: minmax(140px, 200px) 1fr;
@@ -45,8 +45,28 @@ export default {
     }
   }
 
-  .sidenav a {
+  .sidenav a,
+  .sidenav button {
     padding: 10px;
     display: block;
+    background-color: #f4f7fc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  .sidenav a.router-link-exact-active,
+  .sidenav a:hover,
+  .sidenav button:hover{
+    background-color: #87e;
+    color: white;
+  }
+  .sidenav button{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
   }
 </style>

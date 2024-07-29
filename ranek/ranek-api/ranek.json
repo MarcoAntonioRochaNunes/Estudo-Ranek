@@ -24,9 +24,9 @@
       "estado": "DF"
     },
     {
-      "id": "Teste@teste.com",
+      "id": "teste@teste.com",
       "nome": "Teste dos Santos",
-      "email": "Teste@teste.com",
+      "email": "teste@teste.com",
       "senha": "123456",
       "cep": "71982780",
       "rua": "QS 11 Conjunto H",
@@ -36,7 +36,7 @@
       "estado": "DF"
     },
     {
-      "id": "",
+      "id": "ocram@nives.com",
       "nome": "Ocram Nives",
       "email": "ocram@nives.com",
       "senha": "123456",
@@ -82,25 +82,13 @@
       "bairro": "",
       "cidade": "",
       "estado": ""
-    },
-    {
-      "id": "w-QBoDa",
-      "nome": "Teste dos Santos",
-      "email": "teste@teste.com",
-      "senha": "123",
-      "cep": "01001-000",
-      "rua": "Praça da Sé",
-      "numero": "100",
-      "bairro": "Sé",
-      "cidade": "São Paulo",
-      "estado": "SP"
     }
   ],
   "produto": [
     {
       "id": "notebook",
       "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "teste@teste.com",
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
@@ -109,7 +97,7 @@
     {
       "id": "smartphone",
       "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "teste@teste.com",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
@@ -118,7 +106,7 @@
     {
       "id": "tablet",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "teste@teste.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -127,7 +115,7 @@
     {
       "id": "tablet22",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "teste@teste.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -136,7 +124,7 @@
     {
       "id": "tablet11",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -145,7 +133,7 @@
     {
       "id": "tablet01",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -154,7 +142,7 @@
     {
       "id": "tablet911",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -163,7 +151,7 @@
     {
       "id": "tablet811",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -172,7 +160,7 @@
     {
       "id": "tablet711",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -181,7 +169,7 @@
     {
       "id": "tablet611",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -190,7 +178,7 @@
     {
       "id": "tablet511",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "ocram@nives.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
