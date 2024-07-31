@@ -7,7 +7,7 @@
         <li><router-link :to="{name: 'UsuariosVendas'}">Vendas</router-link></li>
         <li><router-link :to="{name: 'UsuariosEditar'}">Editar Usuario</router-link></li>
 
-        <li><button @click.prevent="deslogar">Deslogar</button></li>
+        <li><button @click="deslogar">Deslogar</button></li>
       </ul>
     </nav>
     <transition mode="out-in">
@@ -67,6 +67,5 @@ export default {
     text-align: left;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     cursor: pointer;
-
   }
 </style>
