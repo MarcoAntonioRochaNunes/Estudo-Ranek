@@ -18,7 +18,7 @@
       "senha": "123456",
       "cep": "71982780",
       "rua": "QS 11 Conjunto H",
-      "numero": "26",
+      "numero": "250",
       "bairro": "Areal (Águas Claras)",
       "cidade": "Brasília",
       "estado": "DF"
@@ -327,6 +327,14 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "Chefes do bailao",
+      "preco": "5665566556",
+      "descricao": "dsadsadsa",
+      "fotos": null,
+      "usuario_id": "teste@teste.com",
+      "id": "Q1cOIY9"
     }
   ]
 }
