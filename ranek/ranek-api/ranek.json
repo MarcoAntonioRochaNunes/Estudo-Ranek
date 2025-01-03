@@ -327,14 +327,6 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
-    },
-    {
-      "nome": "Chefes do bailao",
-      "preco": "5665566556",
-      "descricao": "dsadsadsa",
-      "fotos": null,
-      "usuario_id": "teste@teste.com",
-      "id": "Q1cOIY9"
     }
   ]
 }
